@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Eclipse-LibertyCloudant-kmo
+  host: Eclipse-LibertyCloudant-kmo
+  disk_quota: 1024M
+  services:
+  - Eclipse-LibertyCloudant-kmo-cloudantNoSQLDB
